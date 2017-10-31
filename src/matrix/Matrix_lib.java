@@ -20,6 +20,7 @@ public class Matrix_lib {
 		return answer;
 	}
 	
+	
 	public double [][] getTranspose(double a[][]) {
 		double t[][] = new double [a[0].length][a.length];
 		for(int i = 0; i < a[0].length; i++) {
